@@ -1,0 +1,115 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - JZNavigationExtension (4.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.5)
+  - TLTabBarController (0.0.6)
+  - UMCAnalytics (5.4.1):
+    - UMCCommon
+  - UMCCommon (1.4.2)
+  - UMCSecurityPlugins (1.0.6)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+  - ZZFLEX (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CocoaLumberjack (~> 3.3.0)
+  - FMDB (~> 2.7.2)
+  - JZNavigationExtension (from `https://github.com/tbl00c/JZNavigationExtension.git`, tag `4.0`)
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.15)
+  - MWPhotoBrowser (~> 2.1.2)
+  - SDWebImage (~> 3.7)
+  - SVProgressHUD (~> 2.2.5)
+  - TLTabBarController (from `https://github.com/tbl00c/TLTabBarController.git`, tag `0.0.6`)
+  - UMCAnalytics (~> 5.4.1)
+  - UMCCommon (~> 1.4.2)
+  - UMCSecurityPlugins (~> 1.0.6)
+  - YYImage
+  - YYText (~> 1.0.7)
+  - ZZFLEX (from `https://github.com/tbl00c/ZZFLEX.git`, tag `0.0.2`)
+
+EXTERNAL SOURCES:
+  JZNavigationExtension:
+    :git: https://github.com/tbl00c/JZNavigationExtension.git
+    :tag: 4.0
+  TLTabBarController:
+    :git: https://github.com/tbl00c/TLTabBarController.git
+    :tag: 0.0.6
+  ZZFLEX:
+    :git: https://github.com/tbl00c/ZZFLEX.git
+    :tag: 0.0.2
+
+CHECKOUT OPTIONS:
+  JZNavigationExtension:
+    :git: https://github.com/tbl00c/JZNavigationExtension.git
+    :tag: 4.0
+  TLTabBarController:
+    :git: https://github.com/tbl00c/TLTabBarController.git
+    :tag: 0.0.6
+  ZZFLEX:
+    :git: https://github.com/tbl00c/ZZFLEX.git
+    :tag: 0.0.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  JZNavigationExtension: 0eada2d9158259bbb3152d13fbcf58b7d2dd3d01
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TLTabBarController: 6e91813f0ae019e8cd2ae35d6f4f6315085f7c44
+  UMCAnalytics: 44e0bb2f442b7aaf97d1c924b58798b612f2c13d
+  UMCCommon: 19f09b4c67b6007837f70f321fe091e5814d49b1
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZZFLEX: ffcec569746c2fc018ec6e21f950fb956b438935
+
+PODFILE CHECKSUM: 62271e4b7475d3b798c084e9460ed9c4a4212db0
+
+COCOAPODS: 1.4.0
