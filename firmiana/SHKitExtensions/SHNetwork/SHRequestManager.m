@@ -20,11 +20,13 @@
 }
 
 static SHRequestManager *_instance = nil;
+
 + (instancetype)sharedManager
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [self manager];
+        [_instance configSettings];
     });
     return _instance;
 }
@@ -33,10 +35,23 @@ static SHRequestManager *_instance = nil;
 #pragma mark - 初始化设置
 - (void)configSettings
 {
+    DDLogInfo(@"network init");
+    
+    /************ * HTTPS * **************/
+    AFSecurityPolicy *securityPolicy = [AFSecurityPolicy defaultPolicy];
+    securityPolicy.allowInvalidCertificates = NO;
+    self.securityPolicy = securityPolicy;
+    
+    //申明请求的数据是json类型
+    self.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    /************ * HTTPS * **************/
+    self.requestSerializer.timeoutInterval = 10;
+    
     //设置可接收的数据类型
-    NSMutableSet *acceptableContentTypes = [NSMutableSet setWithSet:self.responseSerializer.acceptableContentTypes];
-    [acceptableContentTypes addObjectsFromArray:@[@"application/json", @"text/json", @"text/javascript", @"text/html", @"text/plain", @"application/xml", @"text/xml", @"*/*", @"application/x-plist"]];
-    self.responseSerializer.acceptableContentTypes = [acceptableContentTypes copy];
+    self.responseSerializer = [AFJSONResponseSerializer serializer];
+    self.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/javascript", @"text/plain", nil];;
+    
     
     //记录网络状态
     [self.reachabilityManager startMonitoring];
@@ -145,20 +160,17 @@ static SHRequestManager *_instance = nil;
         [self wrapperTask:task responseObject:nil error:error completion:completion];
     };
     
+    DDLogInfo(@"request url: %@\n payload: %@", urlString, parameters);
+    
     if (method == SHRequestMethodGET) {
         [self GET:urlString parameters:parameters progress:nil success:success failure:failure];
-        
-    }
-    if (method == SHRequestMethodPOST) {
+    } else if (method == SHRequestMethodPOST) {
         [self POST:urlString parameters:parameters progress:nil success:success failure:failure];
-    }
-    if (method == SHRequestMethodPUT) {
+    } else if (method == SHRequestMethodPUT) {
         [self PUT:urlString parameters:parameters success:success failure:failure];
-    }
-    if (method == SHRequestMethodDELETE) {
+    } else if (method == SHRequestMethodDELETE) {
         [self DELETE:urlString parameters:parameters success:success failure:failure];
-    }
-    
+    }    
 }
 
 

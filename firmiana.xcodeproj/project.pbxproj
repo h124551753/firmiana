@@ -138,6 +138,17 @@
 		11BF79822086E2B800805EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BF79812086E2B800805EF1 /* Assets.xcassets */; };
 		11BF79922086E2B800805EF1 /* firmianaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BF79912086E2B800805EF1 /* firmianaTests.m */; };
 		11BF799D2086E2B800805EF1 /* firmianaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BF799C2086E2B800805EF1 /* firmianaUITests.m */; };
+		11C26F32208AE26C0074BD7F /* HMScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F25208AE26B0074BD7F /* HMScannerBorder.m */; };
+		11C26F33208AE26C0074BD7F /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F26208AE26B0074BD7F /* HMScanerCardViewController.m */; };
+		11C26F34208AE26C0074BD7F /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F28208AE26B0074BD7F /* HMScannerMaskView.m */; };
+		11C26F35208AE26C0074BD7F /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F29208AE26B0074BD7F /* HMScanner.m */; };
+		11C26F36208AE26C0074BD7F /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F2B208AE26B0074BD7F /* HMScannerController.m */; };
+		11C26F37208AE26C0074BD7F /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C26F2C208AE26C0074BD7F /* HMScannerViewController.m */; };
+		11C26F3F208AE28A0074BD7F /* ScanQR3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C26F3A208AE28A0074BD7F /* ScanQR3@2x.png */; };
+		11C26F40208AE28A0074BD7F /* ScanQR4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C26F3B208AE28A0074BD7F /* ScanQR4@2x.png */; };
+		11C26F41208AE28A0074BD7F /* ScanQR1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C26F3C208AE28A0074BD7F /* ScanQR1@2x.png */; };
+		11C26F42208AE28A0074BD7F /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C26F3D208AE28A0074BD7F /* QRCodeScanLine@2x.png */; };
+		11C26F43208AE28A0074BD7F /* ScanQR2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C26F3E208AE28A0074BD7F /* ScanQR2@2x.png */; };
 		83E0E9A20FDBDE616B917160 /* libPods-firmiana.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16E094EEBBCD7452E4F2E8 /* libPods-firmiana.a */; };
 /* End PBXBuildFile section */
 
@@ -425,6 +436,23 @@
 		11BF79982086E2B800805EF1 /* firmianaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firmianaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BF799C2086E2B800805EF1 /* firmianaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firmianaUITests.m; sourceTree = "<group>"; };
 		11BF799E2086E2B800805EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C26F25208AE26B0074BD7F /* HMScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerBorder.m; sourceTree = "<group>"; };
+		11C26F26208AE26B0074BD7F /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
+		11C26F27208AE26B0074BD7F /* HMScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerController.h; sourceTree = "<group>"; };
+		11C26F28208AE26B0074BD7F /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
+		11C26F29208AE26B0074BD7F /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
+		11C26F2A208AE26B0074BD7F /* HMScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerBorder.h; sourceTree = "<group>"; };
+		11C26F2B208AE26B0074BD7F /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
+		11C26F2C208AE26C0074BD7F /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
+		11C26F2D208AE26C0074BD7F /* HMScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		11C26F2E208AE26C0074BD7F /* HMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanner.h; sourceTree = "<group>"; };
+		11C26F2F208AE26C0074BD7F /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
+		11C26F30208AE26C0074BD7F /* HMScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerViewController.h; sourceTree = "<group>"; };
+		11C26F3A208AE28A0074BD7F /* ScanQR3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR3@2x.png"; sourceTree = "<group>"; };
+		11C26F3B208AE28A0074BD7F /* ScanQR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@2x.png"; sourceTree = "<group>"; };
+		11C26F3C208AE28A0074BD7F /* ScanQR1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@2x.png"; sourceTree = "<group>"; };
+		11C26F3D208AE28A0074BD7F /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
+		11C26F3E208AE28A0074BD7F /* ScanQR2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@2x.png"; sourceTree = "<group>"; };
 		6742CB226B53451CD8D2B516 /* Pods-firmiana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firmiana.release.xcconfig"; path = "Pods/Target Support Files/Pods-firmiana/Pods-firmiana.release.xcconfig"; sourceTree = "<group>"; };
 		8D16E094EEBBCD7452E4F2E8 /* libPods-firmiana.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firmiana.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D640B271DB277FD4ACB12 /* Pods-firmiana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firmiana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firmiana/Pods-firmiana.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1013,6 +1041,7 @@
 		11791ADF20871F7E00D29CD9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				11C26F24208AE2180074BD7F /* Scanner */,
 				11BBF95920888BC80085CDCF /* Advertise */,
 				11BBF949208886910085CDCF /* Welcome */,
 				11791AE120871FB800D29CD9 /* Launcher */,
@@ -1439,6 +1468,38 @@
 			path = firmianaUITests;
 			sourceTree = "<group>";
 		};
+		11C26F24208AE2180074BD7F /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				11C26F39208AE2750074BD7F /* Resources */,
+				11C26F2D208AE26C0074BD7F /* HMScanerCardViewController.h */,
+				11C26F26208AE26B0074BD7F /* HMScanerCardViewController.m */,
+				11C26F2E208AE26C0074BD7F /* HMScanner.h */,
+				11C26F29208AE26B0074BD7F /* HMScanner.m */,
+				11C26F2A208AE26B0074BD7F /* HMScannerBorder.h */,
+				11C26F25208AE26B0074BD7F /* HMScannerBorder.m */,
+				11C26F27208AE26B0074BD7F /* HMScannerController.h */,
+				11C26F2B208AE26B0074BD7F /* HMScannerController.m */,
+				11C26F2F208AE26C0074BD7F /* HMScannerMaskView.h */,
+				11C26F28208AE26B0074BD7F /* HMScannerMaskView.m */,
+				11C26F30208AE26C0074BD7F /* HMScannerViewController.h */,
+				11C26F2C208AE26C0074BD7F /* HMScannerViewController.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		11C26F39208AE2750074BD7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11C26F3D208AE28A0074BD7F /* QRCodeScanLine@2x.png */,
+				11C26F3C208AE28A0074BD7F /* ScanQR1@2x.png */,
+				11C26F3E208AE28A0074BD7F /* ScanQR2@2x.png */,
+				11C26F3A208AE28A0074BD7F /* ScanQR3@2x.png */,
+				11C26F3B208AE28A0074BD7F /* ScanQR4@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ACDA64412FCE7E5149A670FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1565,15 +1626,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				11BBF967208896940085CDCF /* Launch.xcassets in Resources */,
+				11C26F42208AE28A0074BD7F /* QRCodeScanLine@2x.png in Resources */,
 				11791ACB2086F6E200D29CD9 /* Localizable.strings in Resources */,
+				11C26F41208AE28A0074BD7F /* ScanQR1@2x.png in Resources */,
 				11BBF94420887B840085CDCF /* AddMenu.xcassets in Resources */,
 				11BF79822086E2B800805EF1 /* Assets.xcassets in Resources */,
 				11BBF956208886BA0085CDCF /* intro_3.jpg in Resources */,
 				11BBF9922088CD8E0085CDCF /* Message.xcassets in Resources */,
+				11C26F3F208AE28A0074BD7F /* ScanQR3@2x.png in Resources */,
+				11C26F43208AE28A0074BD7F /* ScanQR2@2x.png in Resources */,
 				11BBF954208886BA0085CDCF /* intro_1.jpg in Resources */,
 				11BBF98E2088CCB90085CDCF /* Home.xcassets in Resources */,
 				11BBF9942088CDA30085CDCF /* Mine.xcassets in Resources */,
 				11BBF953208886BA0085CDCF /* intro_0.jpg in Resources */,
+				11C26F40208AE28A0074BD7F /* ScanQR4@2x.png in Resources */,
 				11BBF9902088CD270085CDCF /* Discover.xcassets in Resources */,
 				11791AD12086F7D700D29CD9 /* InfoPlist.strings in Resources */,
 				11791C8D208731C200D29CD9 /* Common.xcassets in Resources */,
@@ -1719,6 +1785,7 @@
 				1154031B20876D5900001577 /* UITabBarController+SHPush.m in Sources */,
 				1154032320876D5900001577 /* UIView+Screenshot.m in Sources */,
 				115403332087814000001577 /* SHDBUserStore.m in Sources */,
+				11C26F34208AE26C0074BD7F /* HMScannerMaskView.m in Sources */,
 				115402A320876A9200001577 /* NSData+Hash.m in Sources */,
 				115402462087527000001577 /* SHShortcutMethod.m in Sources */,
 				11BBF93720886E730085CDCF /* UIImageView+SHWebImage.m in Sources */,
@@ -1728,6 +1795,7 @@
 				1154029E20876A9200001577 /* NSArray+SafeAccess.m in Sources */,
 				1154033A2087819200001577 /* SHDBBaseStore.m in Sources */,
 				115402A220876A9200001577 /* NSData+Gzip.m in Sources */,
+				11C26F33208AE26C0074BD7F /* HMScanerCardViewController.m in Sources */,
 				1154032120876D5900001577 /* UIView+Extensions.m in Sources */,
 				11BBF900208842640085CDCF /* SHRequestManager.m in Sources */,
 				11791C8E208731C200D29CD9 /* UIColor+Firmiana.m in Sources */,
@@ -1735,6 +1803,7 @@
 				115402B120876A9200001577 /* SHDeallocTask.m in Sources */,
 				11BBF94620887B840085CDCF /* SHAddMenuItem.m in Sources */,
 				115402A720876A9200001577 /* NSDictionary+SafeAccess.m in Sources */,
+				11C26F37208AE26C0074BD7F /* HMScannerViewController.m in Sources */,
 				115402AE20876A9200001577 /* NSObject+Reflection.m in Sources */,
 				1154032020876D5900001577 /* UITextView+Select.m in Sources */,
 				11BBF93620886E730085CDCF /* UIButton+SHWebImage.m in Sources */,
@@ -1782,9 +1851,11 @@
 				1154032220876D5900001577 /* UIView+Frame.m in Sources */,
 				1154024F2087554A00001577 /* SHActionSheet.m in Sources */,
 				11BBF92520886CC60085CDCF /* SHSettingItemSwitchCell.m in Sources */,
+				11C26F36208AE26C0074BD7F /* HMScannerController.m in Sources */,
 				11BBF92920886CC60085CDCF /* SHPictureCarouselViewCell.m in Sources */,
 				1154032720876D5900001577 /* UIWindow+Extensions.m in Sources */,
 				11BBF93B2088786C0085CDCF /* SHAppConfig.m in Sources */,
+				11C26F32208AE26C0074BD7F /* HMScannerBorder.m in Sources */,
 				1154031520876D5900001577 /* UINavigationBar+iOS11Fixed.m in Sources */,
 				115402A520876A9200001577 /* NSDate+Relation.m in Sources */,
 				1154032B20877F4A00001577 /* SHUserHelper.m in Sources */,
@@ -1793,6 +1864,7 @@
 				1154031620876D5900001577 /* UINavigationController+Extensions.m in Sources */,
 				1154031720876D5900001577 /* UINavigationItem+Fixed.m in Sources */,
 				1154032520876D5900001577 /* UIViewController+NavBar.m in Sources */,
+				11C26F35208AE26C0074BD7F /* HMScanner.m in Sources */,
 				1154024C208753F100001577 /* SHUIUtility.m in Sources */,
 				11BBF9882088CA480085CDCF /* SHMessageViewController.m in Sources */,
 				11BBF8FA208842110085CDCF /* SHBaseRequest.m in Sources */,

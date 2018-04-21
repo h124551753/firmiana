@@ -10,6 +10,18 @@
 
 @implementation SHBaseRequest
 
+static SHBaseRequest *_instance = nil;
+
++ (instancetype)sharedRequest
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _instance = [[self alloc] init];
+    });
+    return _instance;
+}
+
+
 
 - (void)GET:(NSString *)URLString parameters:(id)parameters completion:(void(^)(SHBaseResponse *response))completion
 {    

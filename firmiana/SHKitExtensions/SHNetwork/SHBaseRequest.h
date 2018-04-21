@@ -13,6 +13,8 @@
 @interface SHBaseRequest : NSObject
 
 
++ (instancetype)sharedRequest;
+
 - (void)GET:(NSString *)URLString parameters:(id)parameters completion:(void(^)(SHBaseResponse *response))completion;
 
 

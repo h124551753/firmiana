@@ -24,7 +24,7 @@ typedef void(^SHBlockRequestFailureWithErrorMessage)(NSString *errMsg);
 
 #pragma mark - # 服务器地址
 // 服务器
-#define     HOST_URL                    @"http://101.200.134.35:8000/"
+#define     HOST_URL                    @"http://ghgylconsole.intoyun.com/"
 
 // 表情服务器
 #define     IEXPRESSION_HOST_URL        @"http://123.57.155.230/ibiaoqing/admin/"
